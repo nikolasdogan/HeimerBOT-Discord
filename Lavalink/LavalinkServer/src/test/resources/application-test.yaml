@@ -1,0 +1,5 @@
+lavalink:
+  server:
+    password: "youshallnotpass"
+
+componentScan: []

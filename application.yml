@@ -1,0 +1,28 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+lavalink:
+  server:
+    password: "123456"
+    sources:
+      youtube: true
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      mixer: true
+      http: true
+      local: false
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 6
+    playerUpdateInterval: 5
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: true
+  nodes:
+    - name: "Local Node"
+      url: "localhost:2333"
+      password: "123456"
+logging:
+  file:
+    max-history: 30
+    max-size: 1GB
